@@ -2,10 +2,10 @@
 My personal website and resume project built with HTML and CSS
 # My Projects
 
-## ResumeProject
+## Resume Project
 - Online demo: [Netlify](https://yuliia-resume.netlify.app)
 
-## MyPersonalWebsite
+## My Personal Website
 - Online demo: [Netlify](https://yuliia-website.netlify.app)
 
 ## My Horoskop
