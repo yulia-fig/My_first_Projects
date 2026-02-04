@@ -90,7 +90,34 @@ ol {
   text-align: center;
   transform: rotateY(180deg);
 }
+/* ===== PRINT / PDF VERSION ===== */
+@media print {
+  .flip-card {
+    perspective: none;
+  }
 
+  .flip-card-inner {
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .flip-card-front {
+    position: relative !important;
+    backface-visibility: visible !important;
+    display: block !important;
+  }
+
+  .flip-card-back {
+    display: none !important;
+  }
+
+  .flip-card-front img {
+    display: block !important;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
 /* Contacts */
 .Contacts-title {
   color: #161d2a;
